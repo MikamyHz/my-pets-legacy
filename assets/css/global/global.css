@@ -1,0 +1,76 @@
+@import'/assets/css/global/normalize.css';
+@import'/assets/css/global/variables.css';
+@import'/assets/css/global/fonts.css';
+@import'/assets/css/global/elements.css';
+
+/* Classes */
+.container {
+  max-width: 1320px;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media i {
+  color: var(--d-60);
+  font-size: var(--h2);
+  border-radius: 30px;
+  transition: all 200ms ease;
+  padding: 8px;
+}
+
+.social-media i:hover {
+  color: var(--white);
+  background-color: var(--primary-dark);
+  transform: translate(-2px);
+  border-radius: 30px;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.btns {
+  background-color: #7B61FF;
+  color: #fff;
+  width: 215px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 200ms ease;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.btns:hover {
+  background-color: #9581FF;
+}
+
+.btns:active {
+  background-color: #B0A0FF;
+}
+
+
+.title {
+  font-size: 40px;
+  color: #7b61ff;
+}

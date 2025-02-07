@@ -1,0 +1,12 @@
+.hero {
+  justify-content: space-evenly;
+}
+
+.hero h1 {
+  max-width: 407px;
+}
+
+.hero p {
+  max-width: 430px;
+  margin: 24px 0;
+}
